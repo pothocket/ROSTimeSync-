@@ -1,0 +1,8 @@
+prefix=/home/odroid/lidar_ws/devel
+
+Name: rio_com
+Description: Description of rio_com
+Version: 0.0.0
+Cflags: -I/home/odroid/lidar_ws/src/rio_com/include
+Libs: -L/home/odroid/lidar_ws/devel/lib -lrio_com
+Requires: roscpp std_msgs tf
